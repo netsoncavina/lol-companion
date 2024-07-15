@@ -36,7 +36,19 @@ const colors = {
     3: "#3C3C41",
     4: "#1E2328",
     5: "#010A13"
-  }
+  },
+  blue_gradient: {
+    1: "#091428",
+    2: "#0A1428"
+  },
+  gold_gradient: {
+    1: "#785A28",
+    2: "#C89B3C"
+  },
+  cyan_gradient: {
+    1: "#005A82",
+    2: "#0AC8B9"
+  },
 };
 
 const theme = extendTheme({ colors });

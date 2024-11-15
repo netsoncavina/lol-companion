@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/navbar/Navbar';
 import Home from './pages/Home';
-import Players from './pages/Player';
+import Players from './pages/player/Player';
 import Champions from './pages/Champions';
 import Teams from './pages/Teams';
 import MatchHistory from './pages/MatchHistory';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div style={{ display: 'flex', justifyContent: 'left' }}>
       <NavBar />
-      <div style={{ flex: 1, padding: '20px' }}>
+      <div style={{ flex: 1 }}>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/players' element={<Players />} />

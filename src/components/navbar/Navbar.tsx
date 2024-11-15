@@ -141,6 +141,7 @@ const SidebarWithHeader = () => {
         </DrawerContent>
       </Drawer>
       {/* <MobileNav onOpen={onOpen} /> */}
+      <Box ml={{ base: 0, md: 60 }}>{/* Content */}</Box>
     </Box>
   );
 };
